@@ -1,0 +1,14 @@
+$primary-color: #1e1e24;
+$secondary-color: #E54B4B;
+$third-color: #FBCAB8;
+$text-color: #F7EBE8;
+
+@mixin  flexCenter($direction, $item, $content){
+    display: flex;
+    align-items: $item;
+    flex-direction: $direction;
+    justify-content: $content;
+}
+@mixin tranition-ease {
+    transition: all 0.5s ease-in;
+}
